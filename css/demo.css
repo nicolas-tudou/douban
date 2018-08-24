@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+    width: 800px;
+    height: 59px;
+    margin: 0px auto;
+    background: #f0f3ef;
+    border-bottom: 1px solid #e5ebe4;
+}
+
+.logo {
+    width: 145px;
+    height: 56px;
+    margin: 0 13px 0 0;
+    background: url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1) 0 12px no-repeat;
+    background-size: center center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.logo_a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-indent: -4em;
+}
+
+.wrapper .search {
+    position: absolute;
+    left: 170px;
+    top: 10px;
+    display: inline-block;
+    width: 600px;
+    height: 34px;
+}
+
+.search_text {
+    position: absolute;
+    left:-1px;
+    top: -2px;
+    width: 500px;
+    height: 34px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+
+.search_btn {
+    position: absolute;
+    left: 500px;
+    top: -1px;
+    display: inline-block;
+    height: 35px;
+    width: 37px;
+    background: url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/nav_mu_bg.png?s=1)no-repeat;
+    background-position: 0 -40px;
+    cursor: pointer;
+}
+
+.wrapper .search .search_resource_box {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    width: 500px;
+    border: 1px solid #f0f3f0;
+    border-top: none;
+}
+
+.wrapper .search .search_resource_box li {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f3f0;
+    z-index: 1000;
+}
+
+.search_resource_img {
+    float: left;
+    width: 50px;
+}
+
+.search_resource_box li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 3000;
+    color: #555d53;
+    overflow: hidden;
+}
+
+.response_desc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.music_list_wrapper {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.music_list_wrapper .search_resource_img {
+    width: 80px;
+}
+
+.music_list_wrapper li {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #f0f3f0;
+    border: 1px slid #555d53;
+}
+
+.music_list_wrapper li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 3000;
+    color: #555d53;
+    overflow: hidden;
+}
